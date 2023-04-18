@@ -1,0 +1,24 @@
+@font-face {
+    font-family: font;
+    src: url();
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-img{
+    width: 300px;
+    background-color: black;
+    padding: 0 0 150px 0;
+    border-radius: 20px 20px 10px 10px;
+    color: white;
+}
+
+.container{
+    max-width: 350px;
+    margin: auto;
+    margin-top: 100px;
+}
