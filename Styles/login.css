@@ -1,6 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: font;
-    src: url();
+    src: url(/Font/static/Orbitron-Bold.ttf);
+}
+
+@font-face {
+    font-family: font_2;
+    src: url(/Font/static/Orbitron-Regular.ttf);
+}
+
+body{
+    font-family: "font_2" ;
+    font-size: 14px;
+}
+
+:root{
+    --primary-color:#404040;
+    --secondary-color:#333333;
+    --tetiary-color:#4d4d4d;
+    --forth-color:#808080;
+    --fifth-color:#000000;
 }
 
 img {
@@ -11,14 +33,55 @@ img {
 
 .card-img{
     width: 300px;
-    background-color: black;
+    background-color: var(--fifth-color);
     padding: 0 0 150px 0;
     border-radius: 20px 20px 10px 10px;
-    color: white;
+    color: #ffff;
 }
 
 .container{
     max-width: 350px;
     margin: auto;
     margin-top: 100px;
+}
+
+#login{
+    font-family: "font", sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.login-data{
+    text-align: center;
+}
+
+#logindivider{
+    width: 20%;
+}
+
+input{
+    border-radius: 7px;
+    background-color: var(--fifth-color);
+    color: #ffff;
+    border-color: #ffff;
+}
+
+.btnLogin{
+    cursor:pointer;
+    padding: 5px;
+    width: 50%;
+    border-radius: 10px;
+    border-color: #ffff;
+    font-family: "font_2", sans-serif;
+}
+
+.btnLogin:hover{
+    cursor:pointer;
+    padding: 5px;
+    width: 50%;
+    border-radius: 10px;
+    border-color: white;
+    font-family: "font_2", sans-serif;
+    background-color: var(--fifth-color);
+    color: #ffff;
 }
