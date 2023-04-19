@@ -35,7 +35,7 @@
 }
 
 body {
-  background-color: red;
+  background-color: #;
 }
 
 .box-container {
@@ -76,15 +76,19 @@ body {
   width: 60%;
   margin: auto;
   padding: 50px;
+  border-radius: 10px;
 }
 
-#name, #email, #subject{
+#name,
+#email,
+#subject {
   margin-left: 40px;
   padding: 10px;
+  border-radius: 10px;
 }
 
-textarea{
+textarea {
   resize: none;
   margin-right: -40px;
-  
+  border-radius: 10px;
 }
