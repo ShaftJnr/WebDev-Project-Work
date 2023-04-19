@@ -71,8 +71,13 @@ input {
   font-family: "font_2";
 }
 
-.fg a{
-    color: #ffff;
+.fg a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.fg a:hover {
+  color: grey;
 }
 
 .btnLogin {
@@ -99,5 +104,4 @@ input {
 #remember_ {
   accent-color: var(--fifth-color);
   border: none;
-  cursor: pointer;
 }
