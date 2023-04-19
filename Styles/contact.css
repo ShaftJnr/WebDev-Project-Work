@@ -72,4 +72,19 @@ body {
 
 .form-container {
   background-color: #fff;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 50px;
+}
+
+#name, #email, #subject{
+  margin-left: 40px;
+  padding: 10px;
+}
+
+textarea{
+  resize: none;
+  margin-right: -40px;
+  
 }
