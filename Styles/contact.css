@@ -1,7 +1,6 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
-  padding: 0;
   font-family: "font", sans-serif;
 }
 
@@ -15,21 +14,62 @@
   src: url(/Font/static/Orbitron-Regular.ttf);
 }
 
-.header{
+.header {
   background: url(/Images/black-wood-bg.jpg);
-  color: #fff;
   text-align: center;
   padding: 80px 0 80px 0;
   position: fixed;
   width: 100%;
 }
 
-.line{
+.heading {
+  color: #ffff;
+}
+
+.line {
   width: 10%;
-  text-align: center;
   margin: auto;
   border-radius: 10px;
   padding: 2px;
   background-color: #fff;
-  outline: none;
+}
+
+body {
+  background-color: red;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+
+.bx1 {
+  background-color: #fff;
+  padding: 45px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #fff;
+}
+
+.bx2 {
+  background-color: #fff;
+  padding: 45px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #fff;
+}
+
+.bx3 {
+  background-color: #fff;
+  padding: 45px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #fff;
+}
+
+.form-container {
+  background-color: #fff;
 }
