@@ -15,9 +15,10 @@
 body {
   font-family: "font_2";
   font-size: 15;
-  background-image: url(/Images/black-wood-bg.jpg);
-  background-size: contain;
-  background-size: 80%;
+  background-image: url(/Images/dark-bg.jpg);
+  background-size: cover;
+  background-size: 100%;
+  background-repeat:no-repeat;
 }
 
 :root {
@@ -46,16 +47,16 @@ img {
 .container {
   max-width: 350px;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 130px;
 }
 
-#login {
+#SignUp {
   font-family: "font", sans-serif;
   font-size: 25px;
   margin: 0;
 }
 
-.login-data {
+.SignUp-data {
   text-align: center;
 }
 
@@ -71,25 +72,7 @@ input {
   font-family: "font_2";
 }
 
-.fg a {
-  color: #ffff;
-  text-decoration: none;
-}
-
-.fg a:hover {
-  color: grey;
-}
-
-.su a {
-  color: #ffff;
-  text-decoration: none;
-}
-
-.su a:hover {
-  color: grey;
-}
-
-.btnLogin {
+.btnsignup_ {
   cursor: pointer;
   padding: 5px;
   width: 50%;
@@ -98,7 +81,7 @@ input {
   font-family: "font_2", sans-serif;
 }
 
-.btnLogin:hover {
+.btnsignup_:hover {
   cursor: pointer;
   padding: 5px;
   width: 50%;
@@ -110,7 +93,17 @@ input {
   transition: 0.6s;
 }
 
-#remember_ {
-  accent-color: var(--fifth-color);
-  border: none;
+.backbutton {
+  cursor: pointer;
+  padding: 5px;
+  width: 10%;
+  border-radius: 10px;
+  border-color: #ffff;
+  font-family: "font_2", sans-serif;
+}
+
+.backbutton:hover {
+  color: #fff;
+  background-color: #000000;
+  transition: 0.5s;
 }
