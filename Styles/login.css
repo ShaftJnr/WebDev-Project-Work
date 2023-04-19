@@ -1,28 +1,31 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: font;
-    src: url(/Font/static/Orbitron-Bold.ttf);
+  font-family: font;
+  src: url(/Font/static/Orbitron-Bold.ttf);
 }
 
 @font-face {
-    font-family: font_2;
-    src: url(/Font/static/Orbitron-Regular.ttf);
+  font-family: font_2;
+  src: url(/Font/static/Orbitron-Regular.ttf);
 }
 
-body{
-    font-family: "font_2" ;
-    font-size: 15;
+body {
+  font-family: "font_2";
+  font-size: 15;
+  background-image: url(/Images/black-wood-bg.jpg);
+  background-size: contain;
+  background-size: 80%;
 }
 
-:root{
-    --primary-color:#404040;
-    --secondary-color:#333333;
-    --tetiary-color:#4d4d4d;
-    --forth-color:#808080;
-    --fifth-color:#000000;
+:root {
+  --primary-color: #404040;
+  --secondary-color: #333333;
+  --tetiary-color: #4d4d4d;
+  --forth-color: #808080;
+  --fifth-color: #000000;
 }
 
 img {
@@ -31,66 +34,65 @@ img {
   border-radius: 10px 10px 0 0;
 }
 
-.card-img{
-    width: 300px;
-    background-color: var(--fifth-color);
-    padding: 0 0 50px 0;
-    border-radius: 20px 20px 10px 10px;
-    color: #ffff;
+.card-img {
+  width: 300px;
+  background-color: var(--fifth-color);
+  padding: 0 0 50px 0;
+  border-radius: 20px 20px 10px 10px;
+  color: #ffff;
 }
 
-.container{
-    max-width: 350px;
-    margin: auto;
-    margin-top: 100px;
+.container {
+  max-width: 350px;
+  margin: auto;
+  margin-top: 100px;
 }
 
-#login{
-    font-family: "font", sans-serif;
-    font-size: 25px;
-    margin: 0;
+#login {
+  font-family: "font", sans-serif;
+  font-size: 25px;
+  margin: 0;
 }
 
-.login-data{
-    text-align: center;
+.login-data {
+  text-align: center;
 }
 
-#logindivider{
-    width: 20%;
+#logindivider {
+  width: 20%;
 }
 
-input{
-    border-radius: 7px;
-    background-color: var(--fifth-color);
-    color: #ffff;
-    border-color: #ffff;
-    font-family: "font_2";
+input {
+  border-radius: 7px;
+  background-color: var(--fifth-color);
+  color: #ffff;
+  border-color: #ffff;
+  font-family: "font_2";
 }
 
-.btnLogin{
-    cursor:pointer;
-    padding: 5px;
-    width: 50%;
-    border-radius: 10px;
-    border-color: #ffff;
-    font-family: "font_2", sans-serif;
+.btnLogin {
+  cursor: pointer;
+  padding: 5px;
+  width: 50%;
+  border-radius: 10px;
+  border-color: #ffff;
+  font-family: "font_2", sans-serif;
 }
 
-.btnLogin:hover{
-    cursor:pointer;
-    padding: 5px;
-    width: 50%;
-    border-radius: 10px;
-    border-color: #ffff;
-    font-family: "font_2", sans-serif;
-    background-color: var(--fifth-color);
-    color: #ffff;
-    transition: 0.6s;
+.btnLogin:hover {
+  cursor: pointer;
+  padding: 5px;
+  width: 50%;
+  border-radius: 10px;
+  border-color: #ffff;
+  font-family: "font_2", sans-serif;
+  background-color: var(--fifth-color);
+  color: #ffff;
+  transition: 0.6s;
 }
 
-#remember_{
-    accent-color: var(--fifth-color);
-    border: none;
-    cursor: pointer;
-
+#remember_ {
+  accent-color: var(--fifth-color);
+  border: none;
+  cursor: pointer;
 }
