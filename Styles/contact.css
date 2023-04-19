@@ -58,7 +58,7 @@ body {
   color: #fff;
 }
 
-.bx1:hover{
+.bx1:hover {
   background-color: #fff;
   color: #000;
 }
@@ -71,7 +71,7 @@ body {
   color: #fff;
 }
 
-.bx2:hover{
+.bx2:hover {
   background-color: #fff;
   color: #000;
 }
@@ -84,7 +84,7 @@ body {
   color: #fff;
 }
 
-.bx3:hover{
+.bx3:hover {
   background-color: #fff;
   color: #000;
 }
@@ -98,7 +98,6 @@ body {
   padding: 50px;
   border-radius: 10px;
   box-shadow: 0 0 20px 0 #fff;
-
 }
 
 #name,
@@ -109,7 +108,7 @@ body {
   border-radius: 10px;
 }
 
-input{
+input {
   background-color: #000;
   color: #fff;
   border-color: #fff;
@@ -124,7 +123,7 @@ textarea {
   border-color: #fff;
 }
 
-.send{
+.send {
   width: 130px;
   height: 50px;
   background: transparent;
@@ -137,10 +136,9 @@ textarea {
   margin-left: 40px;
 }
 
-.send:hover{
+.send:hover {
   border-color: #fff;
   background-color: #fff;
   color: #000;
   transition: 0.5s;
 }
-
