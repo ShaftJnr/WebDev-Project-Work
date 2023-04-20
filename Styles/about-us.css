@@ -96,3 +96,23 @@ body {
 .content-section, .social{
     margin-top: 40px;
 }
+.social i{
+    color: #000;
+    font-size: 30px;
+    width: 35px;
+    padding: 0 10px;
+}
+
+.social i:hover{
+    color: grey;
+}
+
+@media screen and (max-width: 768px){
+    .container-s{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
