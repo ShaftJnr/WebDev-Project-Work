@@ -181,17 +181,19 @@ box-shadow: 0 0 9px 0 #0000;
 
 .items-txt {
     margin-top: 20px;
+    text-align: center;
 }
 
 .items-txt:hover{
     background-color: #000;
     color: #fff;
+    border-radius: 10px;
 }
 
 .items-txt:hover h3,
 .items-txt:hover p,
 .items-txt:hover i{
-    color: ffff;
+    color: #fff;
 }
 
 .items-txt:hover i{
@@ -201,4 +203,16 @@ box-shadow: 0 0 9px 0 #0000;
 .items-txt:hover p,
 .items-txt:hover i{
     transition: all 400ms ease-in-out;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+}
+
+.bx-container{
+    width:100%;
 }
