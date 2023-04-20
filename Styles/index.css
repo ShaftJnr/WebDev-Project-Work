@@ -15,7 +15,7 @@
   src: url(/Font/static/Orbitron-Regular.ttf);
 }
 
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,6 @@ body{
   background-position: center;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(20px);
-
 }
 
 :root {
@@ -85,7 +84,7 @@ body{
   cursor: pointer;
   font-size: 1.1em;
   color: var(--secondary-color);
-  margin-left: 40px;
+  margin-left: 0;
 }
 
 .btnlogin:hover {
@@ -95,7 +94,7 @@ body{
   transition: 0.5s;
 }
 
-.content{
+.content {
   width: 100%;
   position: absolute;
   top: 50%;
@@ -103,5 +102,4 @@ body{
   text-align: center;
   color: #fff;
   font-size: 25px;
-  
 }
