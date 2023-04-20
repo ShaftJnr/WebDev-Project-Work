@@ -60,6 +60,7 @@ body {
 .image-section {
   float: right;
   width: 40%;
+  margin-top: 80px;
 }
 
 .image-section img {
@@ -126,10 +127,78 @@ p {
   .image-section {
     float: none;
     width: 100%;
-    display: block; 
+    display: block;
     margin: auto;
   }
-  .content-section, .title{
+  .content-section,
+  .title {
     text-align: center;
   }
+  .content-section,
+  .content,
+  .button {
+    text-align: center;
+  }
+  .content-section .content .btnMore a {
+    padding: 9px 30px;
+  }
+  .content-section .social {
+    text-align: center;
+  }
+}
+
+/* bx about-us */
+
+.items-txt{
+margin-bottom: 20px;
+margin-top: 20px;
+background-color: #fff;
+padding: 80px 30px;
+box-shadow: 0 0 9px 0 #0000;
+}
+
+.items-txt i{
+    font-size: 44px;
+    margin: 0;
+}
+
+.items-txt, h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.items-txt hr{
+    width: 46px;
+    height: 3px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.items-txt hr:hover{
+    background-color: #ffbf00;
+}
+
+.items-txt {
+    margin-top: 20px;
+}
+
+.items-txt:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.items-txt:hover h3,
+.items-txt:hover p,
+.items-txt:hover i{
+    color: ffff;
+}
+
+.items-txt:hover i{
+    transform: translateY(-20px);
+}
+.items-txt:hover h3,
+.items-txt:hover p,
+.items-txt:hover i{
+    transition: all 400ms ease-in-out;
 }
