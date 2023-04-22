@@ -35,7 +35,7 @@
   background-color: #fff;
 }
 
-.content{
+.content {
   width: 50%;
   margin: 100px auto 30px auto;
   margin-top: 100px;
@@ -45,8 +45,6 @@
   border-radius: 10px;
 }
 
-body{
+body {
   background-color: rgb(253, 246, 237);
 }
-
-
